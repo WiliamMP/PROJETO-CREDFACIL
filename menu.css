@@ -1,0 +1,77 @@
+@import url(root.css);
+
+/* TITULO DO MENU */
+*{
+  padding: 0;
+  margin: 0;
+}
+.menu-header-title-strong ,strong{
+  color: var(--primary-color);
+  font-size: 2.2rem;
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+.general-menu{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+
+  margin: 0 85px 0 85px;
+
+}
+
+.title-header-logo{
+  text-decoration: none;
+}
+
+
+.a-list{
+  padding: 28px 22px 28px 22px;
+
+  text-decoration: none;
+  color: var(--primary-color);
+
+  transition: .6s;
+
+}
+
+.a-list:hover{
+  background-color: #fff;
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 0px;
+  box-shadow: .1px .5px 5px black;
+
+  transition: 0.3s;
+}
+
+.ordened-list-style {
+  display: flex;
+
+  list-style: none;
+
+  /* gap: 2rem; */
+}
+
+.btn-contactus{
+  padding: 8px 16px 8px 16px;
+
+  border-radius: 40px;
+  border: 1px solid var(--primary-color);
+
+  background-color: rgb(255,255,255,0);
+  color: var(--primary-color);
+  
+  font-weight: bold;
+  transition: .7s;
+
+}
+
+.btn-contactus:hover{
+  transition: .7s;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+}
+

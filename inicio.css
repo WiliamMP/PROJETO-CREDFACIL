@@ -1,0 +1,150 @@
+@import url(root.css);
+
+/*  CFG'S DOS ELEMENTOS ENCONTRADOS DO LADO ESQUERDO(MINHA PERSPECTIVA)  */
+
+.home-content-all{
+  display: flex;
+}
+
+.brev-contact{
+  margin-top: 8.52rem;
+  margin-right: 9.9rem;
+  margin-left: 6.8rem;
+
+  height: 35.6rem;
+  width: 46.4rem;
+
+  text-align: center;
+}
+
+.text-money{
+  color: var(--primary-color);
+
+  font-weight: bold;
+  font-size: 5.4rem;
+}
+
+.rest-money{
+  font-size: 5.4rem;
+  font-weight: bold;
+}
+
+.resume-mark {
+  font-size: 2.0rem;
+  word-break: normal;
+  font-weight: lighter;
+
+
+  margin-top: 3rem;
+}
+
+.btn-contactus-resume{
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: bold;
+
+
+  border: none;
+  border-radius: 40px;
+
+  box-shadow: 0px 2px 4px 0px #000;
+
+  padding: 15px 88px;
+
+  margin-top: 3rem;
+  transition: .3s;
+}
+
+.btn-contactus-resume:hover {
+  transition: .3s;
+  background-color: hsl(151, 100%, 23%);
+  cursor: pointer;
+}
+
+.division{
+  background-color: var(--primary-color);
+  
+  border: none;
+
+  height: 48.9rem;
+  width: .1px;
+}
+
+/*  MULHER COM O CELULAR NA MÃO POSICIONAND DIV E RECOLOCANDO ELA NO SEU DEVIDO LUGAR */
+
+.metrics-w-image{
+  margin-left: 12.7rem;
+  text-align: center;
+}
+
+.statistcs-stylized{
+  background-color: #EBEBEB;
+
+  width: 52rem;
+  height: 12.1rem;
+
+  border-radius: 25px;
+}
+
+.svg-image-girl-with-smartphone{
+  transform: translateY(5px);
+}
+
+
+/*                     ESTATISTICAS                           */
+
+.statistcs-stylized{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.aligned{
+  margin: 2.3rem;
+}
+
+.star{
+  transform: translateY(-5px);
+  margin-left: .5rem;
+}
+
+.division-for-smalldiv{
+  height: 8.2rem;
+  width: .1rem;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+/* PAGAMENTOS */
+
+.numbers-payments{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.payment-text{
+  color: var(--primary-color);
+}
+
+/*  CLIENTES ATENDIDOS  */
+
+.clientes-atendidos-numbers{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.clientes-atendidos-text{
+  color: var(--primary-color);
+}
+
+/*  AVALIAÇÕES  */
+
+.avaliations-numbers{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.avaliations-text{
+  color: var(--primary-color);
+}
