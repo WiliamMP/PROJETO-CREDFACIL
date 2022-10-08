@@ -8,15 +8,46 @@
   font-family: DM Sans;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 *{
   font-size: 1.6rem;
-  --primary-color: hsl(151, 100%, 30%);
+  --primary-color: #00994f;
   --secondary-color: #fff;
   --primary-background-color: #DDDDDD;
 }
 
 .light-default{
   background-color: var(--primary-background-color);
+}
+
+/* tamanho */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Fundo */
+::-webkit-scrollbar-track {
+  background: rgb(0,0,0,0);
+
+}
+
+/* Bar */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 153, 79, .8);
+  border-radius: 10px;
+}
+
+/* Bar ao tocar */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 134, 69, .8);
+}
+
+.no-decoration{
+  text-decoration: none;
 }
 
 /*  AVISO */
