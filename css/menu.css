@@ -25,15 +25,11 @@
 
 .sticky .btn-contactus {
   border-color: #fff;
+}
+
+.sticky .btn-contactus a {
   color: #fff;
 }
-
-.sticky .btn-contactus:hover{
-  border-color: var(--secondary-color);
-  background-color: #fff;
-  color: var(--secondary-color);
-}
-
 
 .menu-header-title-strong ,strong{
   color: var(--primary-color);
@@ -110,3 +106,15 @@
   cursor: pointer;
 }
 
+.btn-contactus:hover a{
+  transition: .7s;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.btn-contactus a{
+  text-decoration: none;
+  color: var(--primary-color);
+}

@@ -1,0 +1,49 @@
+@import url(root.css);
+
+.depoiments-align{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.depoiments-title{
+  width: max-content;
+}
+
+.depoiments-title-h1{
+  color: var(--primary-color);
+  font-size: 5.2rem;
+  border-bottom: 1px solid var(--primary-color);
+  margin-bottom: 7rem;
+}
+
+.depoiments-subtitle-h2{
+  color: #000;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 4.1rem;
+  
+}
+
+.depoiments-resume-text-about{
+  text-align: center;
+  margin-bottom: 4.1rem;
+}
+
+.depoiments-align-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.youtube-video-depoiment, iframe{
+  border-top: 1.5rem solid var(--primary-color);
+  border-left: 1.5rem solid var(--primary-color);
+  border-collapse: collapse;
+  background-color: var(--primary-color);
+}
+
+iframe:nth-last-child(1){
+  margin-bottom: 9.1rem;
+  margin-top: 1rem;
+}

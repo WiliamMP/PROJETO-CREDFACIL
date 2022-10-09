@@ -55,6 +55,11 @@
   transition: .3s;
 }
 
+.btn-contactus-resume a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .btn-contactus-resume:hover {
   transition: .3s;
   background-color: var(--secondary-color);
@@ -148,4 +153,23 @@
 
 .avaliations-text{
   color: var(--primary-color);
+}
+
+.auxilio-warining{
+  background-color: rgb(255, 60, 60);
+  color: rgb(255, 190, 190);
+  border-radius: 15px;
+  padding: .2rem;
+  border-top-left-radius: 0;
+  visibility: hidden;
+
+}
+
+.auxilio-brasil{
+  cursor: pointer;
+}
+
+
+.visible{
+  visibility: visible;
 }

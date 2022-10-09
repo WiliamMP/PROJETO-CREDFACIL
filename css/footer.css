@@ -1,0 +1,25 @@
+@import url(root.css);
+
+.title-h3-footer{
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.information-year-social-media{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.information-year, .information-business{
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+footer{
+  padding: 5rem;
+  padding-bottom: 1rem;
+}

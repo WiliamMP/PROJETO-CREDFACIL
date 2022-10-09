@@ -1,0 +1,18 @@
+@import url(root.css);
+
+.error-content{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.h1-text{
+  font-size: 8.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+
+  border-bottom: 1px solid var(--primary-color);
+}
