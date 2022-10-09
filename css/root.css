@@ -10,12 +10,13 @@
 
 html{
   scroll-behavior: smooth;
+  
 }
 
 *{
   font-size: 1.6rem;
   --primary-color: #00994f;
-  --secondary-color: #fff;
+  --secondary-color: #e57227;
   --primary-background-color: #DDDDDD;
 }
 
@@ -32,7 +33,7 @@ html{
 /* Fundo */
 ::-webkit-scrollbar-track {
   background: rgb(0,0,0,0);
-
+  
 }
 
 /* Bar */
@@ -48,6 +49,11 @@ html{
 
 .no-decoration{
   text-decoration: none;
+}
+
+footer{
+  background-color: var(--primary-color);
+  height: 16rem;
 }
 
 /*  AVISO */

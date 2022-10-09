@@ -1,0 +1,103 @@
+@import url(root.css);
+
+.big-division{
+  margin-top: 8.1rem;
+  /* padding-bottom: 2.4rem; */
+}
+
+.services-general-content{
+  text-align: center;
+  /*  DESBLOQUEANDO PRA ALINHAR A DIV DE TITULO NO MEIO */
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 2.4rem;
+
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #fff;
+}
+
+.green-division{
+  background-color: var(--primary-color);
+  border: none;
+  height: 1.4rem;
+}
+
+.services-title{
+  width: min-content;
+  margin-bottom: 4rem;
+}
+
+.services-h1-title{
+  color: var(--primary-color);
+  font-size: 5.2rem;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.services-subtitle{
+  margin-bottom: 4rem;
+}
+
+.services-h2-subtitle{
+  font-size: 3.8rem;
+  color: #000;
+
+}
+
+.text-for-apresentation{
+  text-transform: uppercase;
+  font-weight: bold;
+
+  color: var(--primary-color);
+}
+
+/*  CARDS DE SERVIÇOS */
+
+.services-cards{
+  display: flex;
+  flex-flow: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: start;
+}
+
+.card{
+  box-shadow: 0px 0px 4px .1px #777777;
+
+  border-radius: 25px;
+  background-color: #fff;
+
+  width: 33.7rem;
+  height: 18.4rem;
+
+  margin: 26px;
+
+}
+
+.service-subtitle{
+  margin: 1.7rem 0 1.5rem 0;
+}
+
+.check-button{
+  margin-top: 1.7rem;
+}
+
+.centralized , .check-button{
+  margin-left: 1.9rem;
+}
+
+/*  CONFIGURAÇÕES PARA OS LINKS DOS SERVIÇOS */
+
+.a-card{
+  color: #000;
+  
+}
+
+/*  PRA N FICA AZUL QUANDO JA CLICOU UMA VEZ  */
+
+.a-card:link{
+  color: #000;
+}

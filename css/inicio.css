@@ -57,7 +57,7 @@
 
 .btn-contactus-resume:hover {
   transition: .3s;
-  background-color: hsl(151, 100%, 23%);
+  background-color: var(--secondary-color);
   cursor: pointer;
 }
 
@@ -75,6 +75,7 @@
 .metrics-w-image{
   margin-left: 12.7rem;
   text-align: center;
+  z-index: -1;
 }
 
 .statistcs-stylized{
