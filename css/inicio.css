@@ -2,8 +2,15 @@
 
 /*  CFG'S DOS ELEMENTOS ENCONTRADOS DO LADO ESQUERDO(MINHA PERSPECTIVA)  */
 
+.content-for-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .home-content-all{
   display: flex;
+  
 }
 
 .brev-contact{
@@ -172,4 +179,28 @@
 
 .visible{
   visibility: visible;
+}
+
+@media(max-width: 320px){
+  .content-for-align, .home-content-all{
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-money{
+    font-size: 3.4rem;
+  }
+
+  .rest-money{
+    font-size: 3.4rem;
+  }
+
+  .division{
+    height: .1rem;
+    width: 25rem;
+  }
+
 }

@@ -118,3 +118,32 @@
   text-decoration: none;
   color: var(--primary-color);
 }
+
+.menu-bar-slide-hidden{
+  visibility: hidden;
+  position: absolute;
+}
+
+@media(max-width: 320px) {
+  .general-menu{
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .a-list{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .btn-contactus{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .menu-bar-slide-hidden{
+    visibility: visible;
+    position: relative;
+    display: flex;
+  }
+  
+}
